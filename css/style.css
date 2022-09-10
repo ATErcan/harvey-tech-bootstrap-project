@@ -1,0 +1,14 @@
+.jumbotron {
+  background-image: url("../img/banner.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: calc(100vh - 56px);
+}
+.services .circle {
+  width: 150px;
+  height: 150px;
+  margin: 1.5rem auto;
+}
+.portfolio .card {
+  padding: 0 !important;
+}
