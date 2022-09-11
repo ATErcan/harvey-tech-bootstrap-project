@@ -2,7 +2,7 @@
   background-image: url("../img/banner.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
-  height: calc(100vh - 56px);
+  height: 100vh;
 }
 .services .circle {
   width: 150px;
@@ -31,6 +31,9 @@
   max-width: 50%;
   min-width: 150px;
 }
+.brands img:hover {
+  cursor: pointer;
+}
 .contact-us {
   background-image: url(../img/map.jpeg);
   background-repeat: no-repeat;
@@ -51,7 +54,14 @@
   border: none;
   border-radius: 5px;
 }
-.contact-us .submit input {
+.contact-us .submit button {
   height: 3rem;
-  width: 10rem;
+  width: 10.5rem;
+}
+footer a:visited {
+  color: #000 !important;
+}
+footer a:hover {
+  color: blue;
+  text-decoration: underline;
 }
