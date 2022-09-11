@@ -27,3 +27,7 @@
   width: 32px;
   height: 32px;
 }
+.brands img {
+  max-width: 50%;
+  min-width: 150px;
+}
