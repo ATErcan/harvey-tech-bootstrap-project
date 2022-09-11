@@ -31,3 +31,27 @@
   max-width: 50%;
   min-width: 150px;
 }
+.contact-us {
+  background-image: url(../img/map.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 6rem;
+}
+.contact-us .entries input {
+  height: 3rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+}
+.contact-us textarea {
+  width: 100%;
+  height: 12rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.contact-us .submit input {
+  height: 3rem;
+  width: 10rem;
+}
