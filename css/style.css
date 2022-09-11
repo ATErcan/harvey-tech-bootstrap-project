@@ -12,3 +12,18 @@
 .portfolio .card {
   padding: 0 !important;
 }
+.our-team img {
+  border: 10px solid #ccc;
+  border-radius: 50%;
+}
+.our-team .icons {
+  max-width: 35%;
+  min-width: 200px;
+}
+.our-team .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+}
